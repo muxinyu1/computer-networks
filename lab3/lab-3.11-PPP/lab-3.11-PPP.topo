@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="BE7973FB-ECB5-4c61-A317-A58534D2F096" name="AR3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-B2-58-6C" com_port="2000" bootmode="0" cx="165.000000" cy="262.000000" edit_left="192" edit_top="316">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Serial" interfacename="Serial" count="2" />
+            </slot>
+            <slot isMainBoard="0" id="3" type="521" />
+        </dev>
+        <dev id="CCEFC230-42C8-492b-8919-93DCD9EBA1FD" name="AR4" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-30-52-BC" com_port="2001" bootmode="0" cx="363.000000" cy="256.000000" edit_left="390" edit_top="310">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Serial" interfacename="Serial" count="2" />
+            </slot>
+            <slot isMainBoard="0" id="3" type="521" />
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="BE7973FB-ECB5-4c61-A317-A58534D2F096" destDeviceID="CCEFC230-42C8-492b-8919-93DCD9EBA1FD">
+            <interfacePair lineName="Serial" srcIndex="3" srcBoundRectIsMoved="0" srcBoundRect_X="235.163956" srcBoundRect_Y="287.692017" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="3" tarBoundRectIsMoved="0" tarBoundRect_X="346.836060" tarBoundRect_Y="284.307983" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips />
+</topo>
